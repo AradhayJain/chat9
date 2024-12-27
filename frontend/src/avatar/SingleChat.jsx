@@ -17,7 +17,7 @@ import animationData from "/src/animations/animation.json"
 import { Menu } from '@chakra-ui/react'
 
 
-const ENDPOINT = 'http://localhost:3000';
+const ENDPOINT = 'https://chat9-ckqm.onrender.com';
 var socket,selectedChatCompare;
 const SingleChat = ({fetchAgain,setFetchAgain }) => {
     const defaultOptions = {
